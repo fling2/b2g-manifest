@@ -141,5 +141,6 @@
   <project path="device/rockchip/rk30_common" name="device-rockchip-rk30_common" remote="flingone" revision="flingone"/>
   <project path="device/rockchip/rk30sdk" name="device-rockchip-rk30sdk" remote="flingone" revision="flingone"/>
   <project path="external/wlan_loader" name="external_wlan_loader" remote="flingone" revision="flingone"/>
+  <project path="rockdev" name="rockdev" remote="flingone" revision="flingone"/>
 
 </manifest>
