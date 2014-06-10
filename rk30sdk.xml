@@ -143,5 +143,6 @@
   <project path="rockdev" name="rockdev" remote="flingone" revision="flingone"/>
   <project path="rkst" name="rkst" remote="flingone" revision="flingone"/>
   <project path="system/core" name="platform_system_core" remote="flingone" revision="flingone"/>
+  <project path="kernel" name="rk3066-kernel" remote="flingone" revision="master"/>
 
 </manifest>
