@@ -102,7 +102,6 @@
   <project path="external/zlib" name="platform/external/zlib"/>
   <project path="frameworks/av" name="platform/frameworks/av"/>
   <project path="frameworks/base" name="platform/frameworks/base"/>
-  <project path="frameworks/native" name="platform/frameworks/native"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm"/>
   <project path="hardware/libhardware" name="platform/hardware/libhardware"/>
@@ -140,6 +139,7 @@
   <project path="device/rockchip/rk30_common" name="device-rockchip-rk30_common" remote="flingone" revision="flingone"/>
   <project path="device/rockchip/rk30sdk" name="device-rockchip-rk30sdk" remote="flingone" revision="flingone"/>
   <project path="external/wlan_loader" name="external_wlan_loader" remote="flingone" revision="flingone"/>
+  <project path="frameworks/native" name="frameworks_native" remote="flingone" revision="flingone"/>
   <project path="hardware/rk29" name="hardware-rk29" remote="flingone" revision="flingone"/>
   <project path="rockdev" name="rockdev" remote="flingone" revision="flingone"/>
   <project path="rkst" name="rkst" remote="flingone" revision="flingone"/>
