@@ -145,6 +145,7 @@
   <project path="rkst" name="rkst" remote="flingone" revision="flingone"/>
   <project path="system/core" name="platform_system_core" remote="flingone" revision="flingone"/>
   <project path="kernel" name="rk3066-kernel" remote="flingone" revision="master"/>
+  <project path="u-boot" name="rockchip_u-boot" remote="flingone" revision="rockchip"/>
   <project path="patches" name="b2g-patches" remote="flingone" revision="v1.3"/>
 
 </manifest>
