@@ -137,6 +137,8 @@
   <project path="bootable/recovery" name="bootable-recovery" remote="flingone" revision="flingone"/>
   <project path="device/rockchip/rk30_common" name="device-rockchip-rk30_common" remote="flingone" revision="flingone"/>
   <project path="device/rockchip/rk30sdk" name="device-rockchip-rk30sdk" remote="flingone" revision="flingone"/>
+  <project path="external/alsa-lib" name="external-alsa-lib" remote="flingone" revision="flingone"/>
+  <project path="external/alsa-utils" name="external-alsa-utils" remote="flingone" revision="flingone"/>
   <project path="external/wlan_loader" name="external_wlan_loader" remote="flingone" revision="flingone"/>
   <project path="frameworks/native" name="frameworks_native" remote="flingone" revision="flingone"/>
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="flingone" revision="flingone"/>
