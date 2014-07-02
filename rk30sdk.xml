@@ -18,12 +18,12 @@
            sync-j="4"/>
 
   <!-- B2G specific things. -->
-  <project path="dalvik" name="fake-libdvm" remote="b2g" revision="v1.3" />
-  <project path="gaia" name="gaia" remote="mozillaorg" revision="v1.3" />
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="v1.3" />
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="v1.3" />
-  <project path="rilproxy" name="rilproxy" remote="b2g" revision="v1.3" />
-  <project path="external/moztt" name="moztt" remote="b2g" revision="v1.3" />
+  <project path="dalvik" name="fake-libdvm" remote="b2g" revision="v2.0" />
+  <project path="gaia" name="gaia" remote="mozillaorg" revision="v2.0" />
+  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="v2.0" />
+  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="v2.0" />
+  <project path="rilproxy" name="rilproxy" remote="b2g" revision="v2.0" />
+  <project path="external/moztt" name="moztt" remote="b2g" revision="v2.0" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 
   <!-- Stock Android things -->
@@ -148,6 +148,6 @@
   <project path="system/core" name="platform_system_core" remote="flingone" revision="flingone"/>
   <project path="kernel" name="rk3066-kernel" remote="flingone" revision="master"/>
   <project path="u-boot" name="rockchip_u-boot" remote="flingone" revision="rockchip"/>
-  <project path="patches" name="b2g-patches" remote="flingone" revision="v1.3"/>
+  <project path="patches" name="b2g-patches" remote="flingone" revision="v2.0"/>
 
 </manifest>
