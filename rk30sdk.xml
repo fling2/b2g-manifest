@@ -100,7 +100,6 @@
   <project path="external/webrtc" name="platform/external/webrtc"/>
   <project path="external/yaffs2" name="platform/external/yaffs2"/>
   <project path="external/zlib" name="platform/external/zlib"/>
-  <project path="frameworks/av" name="platform/frameworks/av"/>
   <project path="frameworks/base" name="platform/frameworks/base"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm"/>
@@ -139,6 +138,7 @@
   <project path="external/alsa-lib" name="external-alsa-lib" remote="flingone" revision="flingone"/>
   <project path="external/alsa-utils" name="external-alsa-utils" remote="flingone" revision="flingone"/>
   <project path="external/wlan_loader" name="external_wlan_loader" remote="flingone" revision="flingone"/>
+  <project path="frameworks/av" name="frameworks_av" remote="flingone" revision="flingone"/>
   <project path="frameworks/native" name="frameworks_native" remote="flingone" revision="flingone"/>
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="flingone" revision="flingone"/>
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="flingone" revision="flingone"/>
