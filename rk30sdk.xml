@@ -41,7 +41,6 @@
   <project path="abi/cpp" name="platform/abi/cpp"/>
   <project path="bionic" name="platform/bionic"/>
   <project path="external/aac" name="platform/external/aac"/>
-  <project path="external/bouncycastle" name="platform/external/bouncycastle"/>
   <project path="external/bsdiff" name="platform/external/bsdiff"/>
   <project path="external/bzip2" name="platform/external/bzip2"/>
   <project path="external/clang" name="platform/external/clang"/>
@@ -138,6 +137,7 @@
   <project path="device/rockchip/rk30sdk" name="device-rockchip-rk30sdk" remote="flingone" revision="flingone"/>
   <project path="external/alsa-lib" name="external-alsa-lib" remote="flingone" revision="flingone"/>
   <project path="external/alsa-utils" name="external-alsa-utils" remote="flingone" revision="flingone"/>
+  <project path="external/bouncycastle" name="external_bouncycastle" remote="flingone" revision="flingone"/>
   <project path="external/mac" name="external-mac" remote="flingone" revision="flingone"/>
   <project path="external/wlan_loader" name="external_wlan_loader" remote="flingone" revision="flingone"/>
   <project path="frameworks/av" name="frameworks_av" remote="flingone" revision="flingone"/>
