@@ -41,6 +41,7 @@
   <project path="abi/cpp" name="platform/abi/cpp"/>
   <project path="bionic" name="platform/bionic"/>
   <project path="external/aac" name="platform/external/aac"/>
+  <project path="external/bouncycastle" name="platform/external/bouncycastle"/>
   <project path="external/bsdiff" name="platform/external/bsdiff"/>
   <project path="external/bzip2" name="platform/external/bzip2"/>
   <project path="external/clang" name="platform/external/clang"/>
