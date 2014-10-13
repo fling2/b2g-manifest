@@ -132,5 +132,6 @@
 
   <!-- rk30sdk things -->
   <project path="device/rockchip/rk3066" name="device-rockchip-rk3066" remote="flingone" revision="flingone-kk"/>
+  <project path="device/rockchip/rksdk" name="device-rockchip-rksdk" remote="flingone" revision="flingone-kk"/>
 
 </manifest>
