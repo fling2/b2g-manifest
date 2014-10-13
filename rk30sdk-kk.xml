@@ -130,4 +130,7 @@
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/vold" path="system/vold"/>
 
+  <!-- rk30sdk things -->
+  <project path="device/rockchip/rk3066" name="device-rockchip-rk3066" remote="flingone" revision="flingone-kk"/>
+
 </manifest>
