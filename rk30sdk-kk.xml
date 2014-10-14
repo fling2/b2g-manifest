@@ -43,7 +43,6 @@
   <project name="device/sample" path="device/sample"/>
   <project name="platform/abi/cpp" path="abi/cpp"/>
   <project name="platform/bionic" path="bionic"/>
-  <project name="platform/bootable/recovery" path="bootable/recovery"/>
   <project name="platform/external/aac" path="external/aac"/>
   <project name="platform/external/bison" path="external/bison"/>
   <project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid"/>
@@ -135,6 +134,7 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan"/>
 
   <!-- rk30sdk things -->
+  <project path="bootable/recovery" name="bootable-recovery" remote="flingone" revision="flingone-kk"/>
   <project path="device/rockchip/rk3066" name="device-rockchip-rk3066" remote="flingone" revision="flingone-kk"/>
   <project path="device/rockchip/rksdk" name="device-rockchip-rksdk" remote="flingone" revision="flingone-kk"/>
   <project path="device/rockchip/common" name="device-rockchip-common" remote="flingone" revision="flingone-kk"/>
