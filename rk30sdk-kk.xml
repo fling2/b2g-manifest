@@ -131,6 +131,7 @@
   <project name="platform/system/vold" path="system/vold"/>
   <!-- Something wrong in caf icu4c.git: refs/tags/android-4.4.2_r1 is lost. Use a equivalent tag -->
   <project path="external/icu4c" name="platform/external/icu4c" revision="refs/tags/AU_LINUX_ANDROID_KK.04.04.00.010.005"/>
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8"/>
 
   <!-- rk30sdk things -->
   <project path="device/rockchip/rk3066" name="device-rockchip-rk3066" remote="flingone" revision="flingone-kk"/>
