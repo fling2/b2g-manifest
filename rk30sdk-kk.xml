@@ -137,6 +137,7 @@
   <project path="device/rockchip/rksdk" name="device-rockchip-rksdk" remote="flingone" revision="flingone-kk"/>
   <project path="device/rockchip/common" name="device-rockchip-common" remote="flingone" revision="flingone-kk"/>
   <project path="external/wlan_loader" name="external_wlan_loader" remote="flingone" revision="flingone-kk"/>
+  <project path="kernel" name="rk3066-kernel" remote="flingone" revision="flingone-kk"/>
   <project path="system/core" name="platform_system_core" remote="flingone" revision="flingone-kk"/>
 
 </manifest>
