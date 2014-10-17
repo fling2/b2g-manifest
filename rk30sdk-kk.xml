@@ -12,9 +12,6 @@
   <default revision="refs/tags/android-4.4.2_r1" remote="caf" sync-j="4"/>
 
   <!-- B2G specific things. -->
-  <project name="platform_build" path="build" remote="b2g" revision="b2g-4.4.2_r1">
-    <copyfile dest="Makefile" src="core/root.mk"/>
-  </project> 
   <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.0"/>
   <project name="gecko" path="gecko" remote="mozillaorg" revision="v2.0"/>
   <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.0"/>
@@ -134,6 +131,9 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan"/>
 
   <!-- rk30sdk things -->
+  <project path="build" name="platform_build" remote="flingone" revision="flingone-kk">
+    <copyfile src="core/root.mk" dest="Makefile"/>
+  </project>
   <project path="bootable/recovery" name="bootable-recovery" remote="flingone" revision="flingone-kk"/>
   <project path="device/rockchip/rk3066" name="device-rockchip-rk3066" remote="flingone" revision="flingone-kk"/>
   <project path="device/rockchip/rksdk" name="device-rockchip-rksdk" remote="flingone" revision="flingone-kk"/>
