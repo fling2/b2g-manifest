@@ -145,5 +145,6 @@
   <project path="rockdev" name="rockdev" remote="flingone" revision="flingone-kk" />
   <project path="rkst" name="rkst" remote="flingone" revision="flingone-kk" />
   <project path="system/core" name="platform_system_core" remote="flingone" revision="flingone-kk"/>
+  <project path="u-boot" name="rockchip_u-boot" remote="flingone" revision="rockchip"/>
 
 </manifest>
