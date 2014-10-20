@@ -146,5 +146,7 @@
   <project path="rkst" name="rkst" remote="flingone" revision="flingone-kk" />
   <project path="system/core" name="platform_system_core" remote="flingone" revision="flingone-kk"/>
   <project path="u-boot" name="rockchip_u-boot" remote="flingone" revision="rockchip"/>
+  <!-- add arm-eabi-4.6 for u-boot build. -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
 
 </manifest>
