@@ -138,6 +138,7 @@
   <project path="device/rockchip/rk3066" name="device-rockchip-rk3066" remote="flingone" revision="flingone-kk"/>
   <project path="device/rockchip/rksdk" name="device-rockchip-rksdk" remote="flingone" revision="flingone-kk"/>
   <project path="device/rockchip/common" name="device-rockchip-common" remote="flingone" revision="flingone-kk"/>
+  <project path="external/mac" name="external-mac" remote="flingone" revision="flingone-kk"/>
   <project path="external/wlan_loader" name="external_wlan_loader" remote="flingone" revision="flingone-kk"/>
   <project path="frameworks/av" name="platform_frameworks_av" remote="flingone" revision="flingone-kk" />
   <project path="hardware/rk29" name="hardware-rk29" remote="flingone" revision="flingone-kk"/>
