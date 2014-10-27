@@ -110,7 +110,6 @@
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji"/>
   <project name="platform/frameworks/wilhelm" path="frameworks/wilhelm"/>
   <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
-  <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
   <project name="platform/libcore" path="libcore"/>
   <project name="platform/libnativehelper" path="libnativehelper"/>
   <project name="platform/ndk" path="ndk"/>
@@ -143,6 +142,7 @@
   <project path="frameworks/av" name="platform_frameworks_av" remote="flingone" revision="flingone-kk" />
   <project path="frameworks/native" name="frameworks_native" remote="flingone" revision="flingone-kk"/>
   <project path="hardware/rk29" name="hardware-rk29" remote="flingone" revision="flingone-kk"/>
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="flingone" revision="flingone-kk"/>
   <project path="kernel" name="rk3066-kernel" remote="flingone" revision="flingone-kk"/>
   <project path="patches" name="b2g-patches" remote="flingone" revision="v2.0-kk"/>
   <project path="rockdev" name="rockdev" remote="flingone" revision="flingone-kk" />
