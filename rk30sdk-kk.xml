@@ -12,15 +12,15 @@
   <default revision="refs/tags/android-4.4.2_r1" remote="caf" sync-j="4"/>
 
   <!-- B2G specific things. -->
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.0"/>
-  <project name="gecko" path="gecko" remote="mozillaorg" revision="v2.0"/>
-  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.0"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.0"/>
-  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.0"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.0"/>
-  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.0"/>
-  <project name="valgrind" path="external/valgrind" remote="b2g" revision="v2.0"/>
-  <project name="vex" path="external/VEX" remote="b2g" revision="v2.0"/>
+  <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.1"/>
+  <project name="gecko" path="gecko" remote="mozillaorg" revision="v2.1"/>
+  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.1"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1"/>
+  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.1"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1"/>
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.1"/>
+  <project name="valgrind" path="external/valgrind" remote="b2g" revision="v2.1"/>
+  <project name="vex" path="external/VEX" remote="b2g" revision="v2.1"/>
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master"/>
 
   <!-- Stock Android things -->
@@ -147,7 +147,7 @@
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="flingone" revision="flingone-kk"/>
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="flingone" revision="flingone-kk"/>
   <project path="kernel" name="rk3066-kernel" remote="flingone" revision="flingone-kk"/>
-  <project path="patches" name="b2g-patches" remote="flingone" revision="v2.0-kk"/>
+  <project path="patches" name="b2g-patches" remote="flingone" revision="v2.1-kk"/>
   <project path="rockdev" name="rockdev" remote="flingone" revision="flingone-kk" />
   <project path="rkst" name="rkst" remote="flingone" revision="flingone-kk" />
   <project path="system/core" name="platform_system_core" remote="flingone" revision="flingone-kk"/>
