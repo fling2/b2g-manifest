@@ -121,7 +121,6 @@
   <project name="platform/system/media" path="system/media"/>
   <project name="platform/system/netd" path="system/netd"/>
   <project name="platform/system/security" path="system/security"/>
-  <project name="platform/system/vold" path="system/vold"/>
   <!-- Something wrong in caf icu4c.git: refs/tags/android-4.4.2_r1 is lost. Use a equivalent tag -->
   <project path="external/icu4c" name="platform/external/icu4c" revision="refs/tags/AU_LINUX_ANDROID_KK.04.04.00.010.005"/>
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8"/>
@@ -152,6 +151,7 @@
   <project path="rkst" name="rkst" remote="flingone" revision="flingone-kk" />
   <project path="system/core" name="platform_system_core" remote="flingone" revision="flingone-kk"/>
   <project path="system/displayd" name="system-displayd" remote="flingone" revision="flingone-kk"/>
+  <project path="system/vold" name="system_vold" remote="flingone" revision="flingone-kk"/>
   <project path="u-boot" name="rockchip_u-boot" remote="flingone" revision="rockchip"/>
   <!-- add arm-eabi-4.6 for u-boot build. -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
