@@ -138,7 +138,7 @@
   <project path="external/ffmpeg" name="external-ffmpeg" remote="flingone" revision="flingone-kk"/>
   <project path="external/mac" name="external-mac" remote="flingone" revision="flingone-kk"/>
   <project path="external/rk-pcba-test" name="external_rk-pcba-test" remote="flingone" revision="flingone-kk" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" remote="flingone" revision="flingone-kk" />
+  <project path="external/sepolicy" name="external_sepolicy" remote="flingone" revision="flingone-kk" />
   <project path="external/wlan_loader" name="external_wlan_loader" remote="flingone" revision="flingone-kk"/>
   <project path="frameworks/av" name="platform_frameworks_av" remote="flingone" revision="flingone-kk" />
   <project path="frameworks/native" name="frameworks_native" remote="flingone" revision="flingone-kk"/>
