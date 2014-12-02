@@ -130,6 +130,7 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
   <project path="bootable/recovery" name="bootable-recovery" remote="flingone" revision="flingone-kk"/>
+  <project path="device/rockchip/rk3066" name="device-rockchip-rk3066" remote="flingone" revision="flingone-kk"/>
   <project path="device/rockchip/rk3188" name="device-rockchip-rk3188" remote="flingone" revision="flingone-kk"/>
   <project path="device/rockchip/rksdk" name="device-rockchip-rksdk" remote="flingone" revision="flingone-kk"/>
   <project path="device/rockchip/common" name="device-rockchip-common" remote="flingone" revision="flingone-kk"/>
