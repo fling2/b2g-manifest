@@ -148,7 +148,7 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="flingone" revision="flingone-kk"/>
   <project path="kernel" name="rk3066-kernel" remote="flingone" revision="sm3188b"/>
   <project path="patches" name="b2g-patches" remote="flingone" revision="v2.1-kk"/>
-  <project path="rockdev" name="rockdev" remote="flingone" revision="flingone-kk" />
+  <project path="rockdev" name="rockdev" remote="flingone" revision="sm3188b" />
   <project path="rkst" name="rkst" remote="flingone" revision="flingone-kk" />
   <project path="system/core" name="platform_system_core" remote="flingone" revision="flingone-kk"/>
   <project path="system/displayd" name="system-displayd" remote="flingone" revision="flingone-kk"/>
