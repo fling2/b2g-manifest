@@ -146,6 +146,7 @@
   <project path="hardware/rk29" name="hardware-rk29" remote="flingone" revision="flingone-kk"/>
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="flingone" revision="flingone-kk"/>
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="flingone" revision="flingone-kk"/>
+  <project path="hardware/realtek/wlan" name="hardware-realtek-wlan" remote="flingone" revision="flingone-kk"/>
   <project path="kernel" name="rk3066-kernel" remote="flingone" revision="rockpro"/>
   <project path="patches" name="b2g-patches" remote="flingone" revision="v2.1-kk"/>
   <project path="rockdev" name="rockdev" remote="flingone" revision="rockpro" />
