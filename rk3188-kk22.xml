@@ -125,35 +125,35 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan"/>
 
   <!-- rk30sdk things -->
-  <project path="build" name="platform_build" remote="fling2" revision="flingone-kk">
+  <project path="build" name="platform_build" remote="fling2" revision="fling2-kk22">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
-  <project path="bootable/recovery" name="bootable-recovery" remote="fling2" revision="flingone-kk"/>
-  <project path="device/rockchip/rk3188" name="device-rockchip-rk3188" remote="fling2" revision="itu1898"/>
-  <project path="device/rockchip/rksdk" name="device-rockchip-rksdk" remote="fling2" revision="itu1898"/>
-  <project path="device/rockchip/common" name="device-rockchip-common" remote="fling2" revision="flingone-kk"/>
-  <project path="external/alsa-lib" name="external-alsa-lib" remote="fling2" revision="flingone-kk"/>
-  <project path="external/alsa-utils" name="external-alsa-utils" remote="fling2" revision="flingone-kk"/>
-  <project path="external/ffmpeg" name="external-ffmpeg" remote="fling2" revision="flingone-kk"/>
-  <project path="external/mac" name="external-mac" remote="fling2" revision="flingone-kk"/>
-  <project path="external/rk-pcba-test" name="external_rk-pcba-test" remote="fling2" revision="flingone-kk" />
-  <project path="external/sepolicy" name="external_sepolicy" remote="fling2" revision="flingone-kk" />
-  <project path="external/wlan_loader" name="external_wlan_loader" remote="fling2" revision="flingone-kk"/>
-  <project path="external/wpa_supplicant_8" name="external_wpa-supplicant-8" remote="fling2" revision="itu1898"/>
-  <project path="frameworks/av" name="platform_frameworks_av" remote="fling2" revision="flingone-kk" />
-  <project path="frameworks/native" name="frameworks_native" remote="fling2" revision="flingone-kk"/>
-  <project path="hardware/rk29" name="hardware-rk29" remote="fling2" revision="flingone-kk"/>
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="fling2" revision="flingone-kk"/>
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="fling2" revision="flingone-kk"/>
-  <project path="hardware/realtek/wlan" name="hardware-realtek-wlan" remote="fling2" revision="flingone-kk"/>
-  <project path="kernel" name="rk3066-kernel" remote="fling2" revision="itu1898"/>
-  <project path="patches" name="b2g-patches" remote="fling2" revision="v2.1-kk"/>
-  <project path="rockdev" name="rockdev" remote="fling2" revision="itu1898" />
-  <project path="rkst" name="rkst" remote="fling2" revision="flingone-kk" />
-  <project path="system/core" name="platform_system_core" remote="fling2" revision="flingone-kk"/>
-  <project path="system/displayd" name="system-displayd" remote="fling2" revision="flingone-kk"/>
-  <project path="system/vold" name="system_vold" remote="fling2" revision="flingone-kk"/>
-  <project path="u-boot" name="rockchip_u-boot" remote="fling2" revision="rockchip"/>
+  <project path="bootable/recovery" name="bootable-recovery" remote="fling2" revision="fling2-kk22"/>
+  <project path="device/rockchip/rk3188" name="device-rockchip-rk3188" remote="fling2" revision="fling2-kk22"/>
+  <project path="device/rockchip/rksdk" name="device-rockchip-rksdk" remote="fling2" revision="fling2-kk22"/>
+  <project path="device/rockchip/common" name="device-rockchip-common" remote="fling2" revision="fling2-kk22"/>
+  <project path="external/alsa-lib" name="external-alsa-lib" remote="fling2" revision="fling2-kk22"/>
+  <project path="external/alsa-utils" name="external-alsa-utils" remote="fling2" revision="fling2-kk22"/>
+  <project path="external/ffmpeg" name="external-ffmpeg" remote="fling2" revision="fling2-kk22"/>
+  <project path="external/mac" name="external-mac" remote="fling2" revision="fling2-kk22"/>
+  <project path="external/rk-pcba-test" name="external_rk-pcba-test" remote="fling2" revision="fling2-kk22" />
+  <project path="external/sepolicy" name="external_sepolicy" remote="fling2" revision="fling2-kk22" />
+  <project path="external/wlan_loader" name="external_wlan_loader" remote="fling2" revision="fling2-kk22"/>
+  <project path="external/wpa_supplicant_8" name="external_wpa-supplicant-8" remote="fling2" revision="fling2-kk22"/>
+  <project path="frameworks/av" name="platform_frameworks_av" remote="fling2" revision="fling2-kk22" />
+  <project path="frameworks/native" name="frameworks_native" remote="fling2" revision="fling2-kk22"/>
+  <project path="hardware/rk29" name="hardware-rk29" remote="fling2" revision="fling2-kk22"/>
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="fling2" revision="fling2-kk22"/>
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="fling2" revision="fling2-kk22"/>
+  <project path="hardware/realtek/wlan" name="hardware-realtek-wlan" remote="fling2" revision="fling2-kk22"/>
+  <project path="kernel" name="rk3066-kernel" remote="fling2" revision="fling2-kk22"/>
+  <project path="patches" name="b2g-patches" remote="fling2" revision="fling2-kk22"/>
+  <project path="rockdev" name="rockdev" remote="fling2" revision="fling2-kk22" />
+  <project path="rkst" name="rkst" remote="fling2" revision="fling2-kk22" />
+  <project path="system/core" name="platform_system_core" remote="fling2" revision="fling2-kk22"/>
+  <project path="system/displayd" name="system-displayd" remote="fling2" revision="fling2-kk22"/>
+  <project path="system/vold" name="system_vold" remote="fling2" revision="fling2-kk22"/>
+  <project path="u-boot" name="rockchip_u-boot" remote="fling2" revision="fling2-kk22"/>
   <!-- add arm-eabi-4.6 for u-boot build. -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
 
