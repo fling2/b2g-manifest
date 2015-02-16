@@ -122,7 +122,6 @@
   <project name="platform/system/security" path="system/security"/>
   <!-- Something wrong in caf icu4c.git: refs/tags/android-4.4.2_r1 is lost. Use a equivalent tag -->
   <project path="external/icu4c" name="platform/external/icu4c" revision="refs/tags/AU_LINUX_ANDROID_KK.04.04.00.010.005"/>
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8"/>
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan"/>
 
   <!-- rk30sdk things -->
@@ -131,8 +130,8 @@
   </project>
   <project path="bootable/recovery" name="bootable-recovery" remote="flingone" revision="flingone-kk"/>
   <project path="device/rockchip/rk3066" name="device-rockchip-rk3066" remote="flingone" revision="flingone-kk"/>
-  <project path="device/rockchip/rk3188" name="device-rockchip-rk3188" remote="flingone" revision="flingone-kk"/>
-  <project path="device/rockchip/rksdk" name="device-rockchip-rksdk" remote="flingone" revision="flingone-kk"/>
+  <project path="device/rockchip/rk3188" name="device-rockchip-rk3188" remote="flingone" revision="itu1898"/>
+  <project path="device/rockchip/rksdk" name="device-rockchip-rksdk" remote="flingone" revision="itu1898"/>
   <project path="device/rockchip/common" name="device-rockchip-common" remote="flingone" revision="flingone-kk"/>
   <project path="external/alsa-lib" name="external-alsa-lib" remote="flingone" revision="flingone-kk"/>
   <project path="external/alsa-utils" name="external-alsa-utils" remote="flingone" revision="flingone-kk"/>
@@ -141,14 +140,16 @@
   <project path="external/rk-pcba-test" name="external_rk-pcba-test" remote="flingone" revision="flingone-kk" />
   <project path="external/sepolicy" name="external_sepolicy" remote="flingone" revision="flingone-kk" />
   <project path="external/wlan_loader" name="external_wlan_loader" remote="flingone" revision="flingone-kk"/>
+  <project path="external/wpa_supplicant_8" name="external_wpa-supplicant-8" remote="flingone" revision="itu1898"/>
   <project path="frameworks/av" name="platform_frameworks_av" remote="flingone" revision="flingone-kk" />
   <project path="frameworks/native" name="frameworks_native" remote="flingone" revision="flingone-kk"/>
   <project path="hardware/rk29" name="hardware-rk29" remote="flingone" revision="flingone-kk"/>
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="flingone" revision="flingone-kk"/>
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="flingone" revision="flingone-kk"/>
-  <project path="kernel" name="rk3066-kernel" remote="flingone" revision="flingone-kk"/>
+  <project path="hardware/realtek/wlan" name="hardware-realtek-wlan" remote="flingone" revision="flingone-kk"/>
+  <project path="kernel" name="rk3066-kernel" remote="flingone" revision="itu1898"/>
   <project path="patches" name="b2g-patches" remote="flingone" revision="v2.1-kk"/>
-  <project path="rockdev" name="rockdev" remote="flingone" revision="flingone-kk" />
+  <project path="rockdev" name="rockdev" remote="flingone" revision="itu1898" />
   <project path="rkst" name="rkst" remote="flingone" revision="flingone-kk" />
   <project path="system/core" name="platform_system_core" remote="flingone" revision="flingone-kk"/>
   <project path="system/displayd" name="system-displayd" remote="flingone" revision="flingone-kk"/>
